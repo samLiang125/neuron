@@ -33,6 +33,8 @@ rm -rf ${package_name}/*
 mkdir -p $package_name/certs
 mkdir -p $package_name/config
 mkdir -p $package_name/plugins/schema
+mkdir -p $package_name/persistence
+mkdir -p $package_name/logs
 
 cp -r build/dist ${package_name}
 
