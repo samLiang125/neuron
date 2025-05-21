@@ -61,8 +61,8 @@ cp build/plugins/libplugin-ekuiper.so \
     build/plugins/libplugin-file.so \
     ${package_name}/plugins/
 
-tar czf ${package_name}-${arch}.tar.gz ${package_name}/
+tar czf ${package_name}-linux-${arch}.tar.gz ${package_name}/
 ls ${package_name}
 rm -rf ${package_name}
 
-echo "${package_name}-${arch}.tar.gz"
+echo "${package_name}-linux-${arch}.tar.gz"
